@@ -1,0 +1,25 @@
+.page{
+  min-width: 360px;
+  max-width: 1920px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  background: #E5E5E5;
+}
+*{
+  margin: 0;
+  padding: 0;
+}
+button{
+  border: none;
+  padding: 0;
+  box-sizing: border-box;
+}
+ul{
+  list-style: none;
+}
+a{
+  text-decoration: none;
+  color: inherit;
+}

@@ -7,7 +7,8 @@
 @import url(../blocks/header/__menu/header__menu.css);
 
 @import url(../blocks/popup/popup.css);
-@import url(../blocks/popup/__menu/popup__menu.css);
+@import url(../blocks/popup/_opened/popup_opened.css);
+@import url(../blocks/popup/__container/popup__container.css);
 @import url(../blocks/popup/__menu/_contant/popup__menu_contant.css);
 @import url(../blocks/popup/__logo/popup__logo.css);
 @import url(../blocks/popup/__list/popup__list.css);
@@ -15,5 +16,25 @@
 @import url(../blocks/popup/__phone/popup__phone.css);
 @import url(../blocks/popup/__subtitle/popup__subtitle.css);
 @import url(../blocks/popup/__callback/popup__callback.css);
-@import url(../blocks/popup/__close/popup__close.css);
+@import url(../blocks/popup/__menu/_close/popup__menu_close.css);
+
+@import url(../blocks/lead/lead.css);
+@import url(../blocks/lead/__container/lead__container.css);
+@import url(../blocks/lead/__title/lead__title.css);
+@import url(../blocks/lead/__request/lead__request.css);
+@import url(../blocks/lead/__request/_border/lead__request_border.css);
+@import url(../blocks/lead/__scroll/lead__scroll.css);
+@import url(../blocks/lead/__down/lead__down.css);
+
+@import url(../blocks/advantages/advantages.css);
+@import url(../blocks/advantages/__title/advantages__title.css);
+@import url(../blocks/advantages/__group/advantages__group.css);
+@import url(../blocks/advantages/__card/_border/advantages__card_border.css);
+@import url(../blocks/advantages/__card/advantages__card.css);
+@import url(../blocks/advantages/__card/_title/advantages__card_title.css);
+@import url(../blocks/advantages/__card/_subtitle/advantages__card_subtitle.css);
+
+
+
+
 

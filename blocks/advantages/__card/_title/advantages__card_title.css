@@ -1,0 +1,9 @@
+.advantages__card_title {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 115%;
+}
+.advantages__card_title span{
+  font-size: 21px;
+  line-height: 115%;
+}

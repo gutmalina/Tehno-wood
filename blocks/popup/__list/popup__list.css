@@ -6,3 +6,13 @@
   color: #FFFFFF;
   margin: 0 0 40px 12px;
 }
+.popup__list a:hover, a:active{
+  text-decoration-line: underline;
+  color: #D7B56D;
+}
+.popup__list li:hover, li:active{
+  display: flex;
+  background: url(../../../images/menu_img.svg) no-repeat;
+  background-position: center right;
+  width: 60%;
+}

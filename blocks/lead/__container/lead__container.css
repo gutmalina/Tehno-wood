@@ -1,0 +1,7 @@
+.lead__container {
+  background: radial-gradient(116.93% 299.08% at -0.89% 106.52%, rgba(38, 38, 38, 0.3) 50.31%, rgba(255, 255, 255, 0.3) 100%);;
+  padding: 100px 0 0 42px;
+  margin-bottom: 2px;
+  width: calc(100% - 72px);
+  align-self: self-start;
+}

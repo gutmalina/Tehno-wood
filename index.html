@@ -13,28 +13,70 @@
       <img src="./images/header_logo.svg" alt="Логотип компании Tehno-wood">
       <button type="button" class="header__menu"></button>
     </header>
-    <main></main>
+    <main>
+      <section class="lead">
+        <div class="lead__container">
+          <h1 class="lead__title">Мебель индивидуального исполнения</h1>
+          <button type="button" class="lead__request">Оставить заявку</button>
+          <div class="lead__request_border"></div>
+          <div class="lead__scroll">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </div>
+        <button type="button" class="lead__down"></button>
+      </section>
+      <section class="advantages">
+        <h2 class="advantages__title">Tehno-Wood в цифрах</h2>
+        <div class="advantages__group">
+          <article class="advantages__card">
+            <div class="advantages__card_border"></div>
+            <h2 class="advantages__card_title">6</h2>
+            <p class="advantages__card_subtitle">производственных направлений</p>
+          </article>
+          <article class="advantages__card">
+            <div class="advantages__card_border"></div>
+            <h2 class="advantages__card_title">10</h2>
+            <p class="advantages__card_subtitle">лет на рынке</p>
+          </article>
+          <article class="advantages__card">
+            <div class="advantages__card_border"></div>
+            <h2 class="advantages__card_title">1500</h2>
+            <p class="advantages__card_subtitle">значимых обьектов</p>
+          </article>
+          <article class="advantages__card">
+            <div class="advantages__card_border"></div>
+            <h2 class="advantages__card_title">6000<span>м<sup>2</sup></span></h2>
+            <p class="advantages__card_subtitle">производственной площади</p>
+          </article>
+        </div>
+      </section>
+    </main>
     <footer></footer>
     <div class="popup popup__menu">
-      <div class="popup__menu_contant">
-        <img class="popup__logo" src="./images/header_logo.svg" alt="Логотип компании Tehno-wood">
-        <ul class="popup__list">
-          <li><a href="">Работы</a></li>
-          <li><a href="">Объекты</a></li>
-          <li><a href="">Материалы</a></li>
-          <li><a href="">О компании</a></li>
-          <li><a href="">Контакты</a></li>
-        </ul>
-        <section class="popup__container_callback">
-          <div class="popup__phone">
-            <img src="./images/phone_call.svg" alt="Заказать обратный звонок">
-            <p class="popup__subtitle">8 (800) 222-65-05</p>
-          </div>
-          <button type="button" class="popup__callback">обратный звонок</button>u
-        </section>
-      </div>
-      <button type="button" class="popup__close"></button>
+      <section class="popup__container">
+        <div class="popup__menu_contant">
+          <img class="popup__logo" src="./images/header_logo.svg" alt="Логотип компании Tehno-wood">
+          <ul class="popup__list">
+            <li><a href="#">Работы</a></li>
+            <li><a href="#">Объекты</a></li>
+            <li><a href="#">Материалы</a></li>
+            <li><a href="#">О компании</a></li>
+            <li><a href="#">Контакты</a></li>
+          </ul>
+          <section class="popup__container_callback">
+            <div class="popup__phone">
+              <img src="./images/phone_call.svg" alt="Заказать обратный звонок">
+              <p class="popup__subtitle">8 (800) 222-65-05</p>
+            </div>
+            <button type="button" class="popup__callback">обратный звонок</button>u
+          </section>
+        </div>
+        <button type="button" class="popup__menu_close"></button>
+      </section>
     </div>
   </page>
+<script src="./scripts/index.js"></script>
 </body>
 </html>

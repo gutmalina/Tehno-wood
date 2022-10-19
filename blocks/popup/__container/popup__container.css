@@ -1,0 +1,10 @@
+.popup__container{
+  background: #1D1D1D;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  max-width: 295px;
+  max-height: 630px;
+  padding-top: 10px;
+}
+

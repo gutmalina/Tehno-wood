@@ -1,0 +1,11 @@
+.lead__request {
+  width: 187px;
+  height: 37px;
+  background: #FFFFFF;
+  border-radius: 2px;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 130%;
+  text-transform: uppercase;
+  color: #1D1D1D;
+}

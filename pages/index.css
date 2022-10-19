@@ -3,50 +3,17 @@
 
 @import url(../blocks/page/page.css);
 
-.header{
-  display: flex;
-  justify-content: space-between;
-  background: #1D1D1D;
-  min-width: 100%;
-  padding: 10px 0 1px;
-}
-.header__menu{
-  background: url(../images/header_menu.svg) no-repeat;
-  width: 24px;
-  margin: 1px 21px 0 0;
-}
+@import url(../blocks/header/header.css);
+@import url(../blocks/header/__menu/header__menu.css);
 
-.popup__menu{
-  background: #1D1D1D;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  position: absolute;
-  top: 0;
-  left: 0;
-  min-width: 295px;
-  min-height: 630px;
-  padding-top: 10px;
-}
-.popup__menu_contant{
-  margin-left: 9px;
-}
-.menu__list{
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 383%;
-  text-transform: uppercase;
-  color: #FFFFFF;
-}
-.callback__subtitle{
-  color: #D7B56D;
-}
+@import url(../blocks/popup/popup.css);
+@import url(../blocks/popup/__menu/popup__menu.css);
+@import url(../blocks/popup/__menu/_contant/popup__menu_contant.css);
+@import url(../blocks/popup/__logo/popup__logo.css);
+@import url(../blocks/popup/__list/popup__list.css);
+@import url(../blocks/popup/__container/_callback/popup__container_callback.css);
+@import url(../blocks/popup/__phone/popup__phone.css);
+@import url(../blocks/popup/__subtitle/popup__subtitle.css);
+@import url(../blocks/popup/__callback/popup__callback.css);
+@import url(../blocks/popup/__close/popup__close.css);
 
-
-.btn__close{
-  background: url(../images/btn_close.svg) no-repeat;
-  width: 17px;
-  height: 17px;
-  margin-right: 15px;
-  margin-top: 1px;
-}

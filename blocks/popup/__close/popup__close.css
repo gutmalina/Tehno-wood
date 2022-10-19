@@ -1,0 +1,7 @@
+.popup__close{
+  background: url(../../../../images/btn_close.svg) no-repeat;
+  width: 17px;
+  height: 17px;
+  margin-right: 15px;
+  margin-top: 1px;
+}

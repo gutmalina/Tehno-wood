@@ -1,0 +1,12 @@
+.popup__menu{
+  background: #1D1D1D;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 295px;
+  min-height: 630px;
+  padding-top: 10px;
+}

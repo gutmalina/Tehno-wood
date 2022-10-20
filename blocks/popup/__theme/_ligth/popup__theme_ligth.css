@@ -1,0 +1,7 @@
+.popup__theme_ligth{
+  background: #FFFFFF;
+  border-radius: 2px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

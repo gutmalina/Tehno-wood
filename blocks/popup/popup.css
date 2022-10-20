@@ -7,5 +7,10 @@
   left: 0;
   opacity: 0;
   transition: visibility 0.5s, opacity 0.5s ease-in-out;
-  background: rgba(29, 29, 29, 0.7);;
+  background: rgba(29, 29, 29, 0.7);
+}
+.popup fieldset{
+  display: grid;
+  gap: 6px 0;
+  margin-bottom: 13px;
 }

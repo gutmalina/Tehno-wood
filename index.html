@@ -55,7 +55,7 @@
     </main>
     <footer></footer>
     <div class="popup popup__menu">
-      <section class="popup__container">
+      <section class="popup__container popup__theme_dark">
         <div class="popup__menu_contant">
           <img class="popup__logo" src="./images/header_logo.svg" alt="Логотип компании Tehno-wood">
           <ul class="popup__list">
@@ -68,12 +68,39 @@
           <section class="popup__container_callback">
             <div class="popup__phone">
               <img src="./images/phone_call.svg" alt="Заказать обратный звонок">
-              <p class="popup__subtitle">8 (800) 222-65-05</p>
+              <p class="popup__phone_subtitle">8 (800) 222-65-05</p>
             </div>
-            <button type="button" class="popup__callback">обратный звонок</button>u
+            <button type="button" class="popup__menu_callback">обратный звонок</button>u
           </section>
         </div>
         <button type="button" class="popup__menu_close"></button>
+      </section>
+    </div>
+    <div class="popup popup__callback popup__type_submit">
+      <section class="popup__container popup__theme_ligth">
+        <h2 class="popup__title">Обратный звонок</h2>
+        <p class="popup__subtitle">Оставьте свои контакты и мы свяжемся с вами</p>
+        <form id="callback" class="popup__form" action="callback">
+          <fieldset>
+            <input type="text" name="name" class="popup__input popup__input_size_small popup__input_name" placeholder="Имя">
+            <input type="tel" name="phone" class="popup__input popup__input_size_small popup__input_phone" placeholder="Телефон">
+          </fieldset>
+          <button type="submit" class="popup__submit">Отправить</button>
+        </form>
+      </section>
+    </div>
+    <div class="popup popup__request popup__type_submit">
+      <section class="popup__container popup__theme_ligth">
+        <h2 class="popup__title popup__title_request">Узнайте стоимость изготовления вашей мебели</h2>
+        <p class="popup__subtitle">Оставьте свои контакты и мы свяжемся с вами</p>
+        <form id="request" class="popup__form popup__form_request" action="request">
+          <fieldset>
+            <input type="text" name="name" class="popup__input popup__input_size_small popup__input_name" placeholder="Имя">
+            <input type="tel" name="phone" class="popup__input popup__input_size_small popup__input_phone" placeholder="Телефон">
+            <textarea type="text" name="comment" class="popup__input popup__input_size-big popup__input_comment" rows="7" placeholder="Комментарий"></textarea>
+          </fieldset>
+          <button type="submit" class="popup__submit">Отправить</button>
+        </form>
       </section>
     </div>
   </page>

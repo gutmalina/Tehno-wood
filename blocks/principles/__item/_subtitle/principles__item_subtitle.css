@@ -1,0 +1,6 @@
+.principles__item_subtitle{
+  line-height: 120%;
+  color: #FFFFFF;
+  margin-bottom: 16px;
+  max-width: calc(100% - 45px);
+}

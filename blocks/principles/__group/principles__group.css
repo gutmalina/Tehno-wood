@@ -1,0 +1,11 @@
+.principles__group {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin-top: -243px;
+  margin-left: 18px;
+  gap: 5px 18px;
+  grid-template-areas:
+  "room table"
+  "bedroom table";
+  margin-bottom: 41px;
+}

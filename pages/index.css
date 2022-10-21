@@ -22,6 +22,18 @@
 @import url(../blocks/advantages/__card/_title/advantages__card_title.css);
 @import url(../blocks/advantages/__card/_subtitle/advantages__card_subtitle.css);
 
+@import url(../blocks/principles/principles.css);
+@import url(../blocks/principles/__title/principles__title.css);
+@import url(../blocks/principles/__border/principles__border.css);
+@import url(../blocks/principles/__group/principles__group.css);
+@import url(../blocks/principles/__card/_type/principles__card_type_room.css);
+@import url(../blocks/principles/__card/_type/principles__card_type_table.css);
+@import url(../blocks/principles/__card/_type/principles__card_type_bedroom.css);
+@import url(../blocks/principles/__list/principles__list.css);
+@import url(../blocks/principles/__item/principles__item.css);
+@import url(../blocks/principles/__item/_number/principles__item_number.css);
+@import url(../blocks/principles/__item/_subtitle/principles__item_subtitle.css);
+
 @import url(../blocks/popup/popup.css);
 @import url(../blocks/popup/_opened/popup_opened.css);
 @import url(../blocks/popup/__theme/_dark/popup__theme_dark.css);
@@ -46,8 +58,6 @@
 @import url(../blocks/popup/__form/popup__form.css);
 @import url(../blocks/popup/__form/_request/popup__form_request.css);
 @import url(../blocks/popup/__submit/popup__submit.css);
-
-
 
 
 

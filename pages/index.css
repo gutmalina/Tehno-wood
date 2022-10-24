@@ -34,6 +34,16 @@
 @import url(../blocks/principles/__item/_number/principles__item_number.css);
 @import url(../blocks/principles/__item/_subtitle/principles__item_subtitle.css);
 
+@import url(../blocks/variant/variant.css);
+@import url(../blocks/variant/__title/variant__title.css);
+@import url(../blocks/variant/__line/variant__line.css);
+@import url(../blocks/variant/__subtitle/variant__subtitle.css);
+@import url(../blocks/variant/__border/variant__border.css);
+@import url(../blocks/variant/__group/variant__group.css);
+@import url(../blocks/variant/__card/variant__card.css);
+@import url(../blocks/variant/__caption/variant__caption.css);
+@import url(../blocks/variant/);
+
 @import url(../blocks/popup/popup.css);
 @import url(../blocks/popup/_opened/popup_opened.css);
 @import url(../blocks/popup/__theme/_dark/popup__theme_dark.css);

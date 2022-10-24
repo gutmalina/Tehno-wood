@@ -1,0 +1,15 @@
+.variant__caption {
+  font-weight: 550;
+  font-size: 14px;
+  line-height: 120%;
+  color: #FFFFFF;
+  background: rgba(29, 29, 29, 0.7);
+  border-radius: 2px;
+  height: 37px;
+  position: absolute;
+  bottom: 3px;
+  width: calc(100% - 8px);
+  padding-left: 8px;
+  display: flex;
+  align-items: center;
+}

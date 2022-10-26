@@ -4,6 +4,12 @@
 * CSS
 * HTML
 * файловая структура по БЭМ
+* JavaScript - структура ООП
+
+### Еще предстоит сделать:
+* Decstop макет
+* Адаптив
+* JavaScript - структура ООП
 
 ### Ссылки:
 * :mag_right: [Открыть проект](https://gutmalina.github.io/Tehno-wood/)

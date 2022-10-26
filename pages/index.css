@@ -37,12 +37,20 @@
 @import url(../blocks/variant/variant.css);
 @import url(../blocks/variant/__title/variant__title.css);
 @import url(../blocks/variant/__line/variant__line.css);
+@import url(../blocks/variant/__line/_style/variant__line_style_black.css);
+@import url(../blocks/variant/__line/_style/variant__line_style_gold.css);
 @import url(../blocks/variant/__subtitle/variant__subtitle.css);
 @import url(../blocks/variant/__border/variant__border.css);
 @import url(../blocks/variant/__group/variant__group.css);
 @import url(../blocks/variant/__card/variant__card.css);
 @import url(../blocks/variant/__caption/variant__caption.css);
-@import url(../blocks/variant/);
+
+@import url(../blocks/production/production.css);
+@import url(../blocks/production/__title/production__title.css);
+@import url(../blocks/production/__line/production__line.css);
+@import url(../blocks/production/__container/production__container.css);
+@import url(../blocks/production/__video/production__video.css);
+@import url(../blocks/production/__player/production__player.css);
 
 @import url(../blocks/popup/popup.css);
 @import url(../blocks/popup/_opened/popup_opened.css);
@@ -71,3 +79,41 @@
 
 
 
+.realization {
+  background: #1D1D1D;
+  margin-top: -47px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 97px;
+}
+.realization__title {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 111%;
+  color: #FFFFFF;
+  margin-bottom: 18px;
+}
+.realization__group{
+  width: 100%;
+  margin-bottom: 16px;
+}
+.realization__border {
+  border: 0.5px solid #D7B56D;
+  border-radius: 2px;
+  width: 304px;
+  height: 146.62px;
+  margin-left: 11px;
+}
+.realization__img{
+  margin-top: -133px;
+  margin-left: 47px;
+}
+.realization__subtitle {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 120%;
+  text-align: center;
+  color: #FFFFFF;
+  width: 82%;
+}

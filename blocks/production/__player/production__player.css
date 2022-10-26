@@ -1,0 +1,6 @@
+.production__player{
+  background: url(../../../../images/production_player.svg) no-repeat;
+  width: 40.13px;
+  height: 40.13px;
+  position: absolute;
+}

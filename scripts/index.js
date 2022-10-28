@@ -15,7 +15,8 @@ const formRequest = document.querySelector('#request');
 formSubmit.addEventListener('submit', function(evt){
   evt.preventDefault(evt);
 })
-formRequest.addEventListener('submit', function(evt){
+formRequest
+ .addEventListener('submit', function(evt){
   evt.preventDefault(evt);
 })
 

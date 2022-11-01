@@ -153,7 +153,7 @@
         </div>
         <p class="realization__subtitle">Пришлите нам свой эскиз или опишите задумку и мы воплотим ее в жизнь в самые кратчайшие сроки</p>
         <form id="realization__request" class="realization__request">
-          <fieldset>
+          <fieldset class="realization__fieldset-date">
             <input type="tel" name="phone" class="realization__input realization__input_phone" placeholder="+7(___)___-__-__">
             <textarea type="text" name="comment" class="realization__input realization__input_comment popup__input_size-big" rows="7" placeholder="Ваш комментарий"></textarea>
             <section class="realization__file">
@@ -163,10 +163,59 @@
             <button type="submit" class="realization__submit">Отправить</button>
           </fieldset>
           <fieldset>
-            <input type="radio">
-            <label for=""></label>
+            <label class="realization__checkbox">
+              <input type="checkbox" class="realization__input-invisible">
+              <span class="realization__input-visible"></span>
+              <p class="realization__subtitle_checkbox">Даю согласие на обработку моих персональных данных</p>
+            </label>
           </fieldset>
         </form>
+      </section>
+      <section class="scheme">
+        <h2 class="scheme__title">Схема работы</h2>
+        <ul class="scheme__list">
+          <li>
+            <div class="scheme__container">
+              <div class="scheme__number">01</div>
+              <div class="scheme__line"></div>
+            </div>
+            <p class="scheme__subtitle">Оставляете нам заявку на сайте или звоните</p>
+          </li>
+          <li>
+            <div class="scheme__container">
+              <div class="scheme__number">02</div>
+              <div class="scheme__line"></div>
+            </div>
+            <p class="scheme__subtitle">Наш специалист выезжает к вам на замер</p>
+          </li>
+          <li>
+            <div class="scheme__container">
+              <div class="scheme__number">03</div>
+              <div class="scheme__line"></div>
+            </div>
+            <p class="scheme__subtitle">Мы составляем смету, учитывая все ваши пожелания</p>
+          </li>
+          <li>
+            <div class="scheme__container">
+              <div class="scheme__number">04</div>
+              <div class="scheme__line"></div>
+            </div>
+            <p class="scheme__subtitle">Согласовываем сроки, стоимость и заключаем договор</p>
+          </li>
+          <li>
+            <div class="scheme__container">
+              <div class="scheme__number">05</div>
+              <div class="scheme__line"></div>
+            </div>
+            <p class="scheme__subtitle">Приступаем к работе</p>
+          </li>
+          <li>
+            <div class="scheme__container">
+              <div class="scheme__number">06</div>
+            </div>
+            <p class="scheme__subtitle">По завершении работы - ее прием и оплата</p>
+          </li>
+        </ul>
       </section>
     </main>
     <footer></footer>

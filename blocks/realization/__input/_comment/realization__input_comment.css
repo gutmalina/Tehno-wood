@@ -1,0 +1,14 @@
+.realization__input_comment{
+  border: none;
+  background: url(../../../../images/realization__pencil.svg) no-repeat 15px 16px #4E4E4E;
+  padding-top: 15px;
+  color: rgba(255, 255, 255, 0.5);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 100%;
+  text-indent: 47px;
+  margin-bottom: 14px;
+}
+.realization__input_comment::placeholder{
+  color: rgba(255, 255, 255, 0.5);
+}

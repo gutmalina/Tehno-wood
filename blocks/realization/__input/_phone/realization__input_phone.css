@@ -1,0 +1,13 @@
+.realization__input_phone{
+  background: url(../../../../images/realization__phone.svg) no-repeat 17px center #4E4E4E;
+  height: 46px;
+  color: #FFFFFF;
+  margin-bottom: 15px;
+  font-weight: 550;
+  font-size: 16px;
+  line-height: 100%;
+  text-indent: 65px;
+}
+.realization__input_phone::placeholder{
+  color: #FFFFFF;
+}

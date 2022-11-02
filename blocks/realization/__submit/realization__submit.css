@@ -1,0 +1,11 @@
+.realization__submit{
+  width: 153px;
+  height: 38px;
+  background: #D7B56D;
+  border-radius: 2px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 100%;
+  color: #1D1D1D;
+  margin: 0 calc((100% - 153px) / 2)
+}

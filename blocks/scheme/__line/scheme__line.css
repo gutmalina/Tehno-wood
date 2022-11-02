@@ -1,0 +1,5 @@
+.scheme__line {
+  border-bottom: 3px solid #D7B56D;
+  width: calc(100% - 43px);
+  margin-left: 11px;
+}

@@ -1,0 +1,6 @@
+.scheme__list {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 12px 25px;
+  margin: 0 11px;
+}

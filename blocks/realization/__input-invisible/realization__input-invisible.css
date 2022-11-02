@@ -1,0 +1,12 @@
+.realization__input-invisible{
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+.realization__input-invisible:checked + .realization__input-visible {
+  background-image: url(../images/realization__checkbox.svg);
+  background-repeat: no-repeat;
+  width: 17px;
+  height: 17px;
+}

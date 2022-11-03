@@ -1,0 +1,6 @@
+.works__img-map {
+  width: 360px;
+  height: 193px;
+  background: url(../../../images/works__map.svg) no-repeat;
+  mix-blend-mode: color-burn;
+}

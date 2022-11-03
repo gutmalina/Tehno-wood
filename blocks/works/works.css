@@ -1,0 +1,6 @@
+.works {
+  background: #F4F3E4;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

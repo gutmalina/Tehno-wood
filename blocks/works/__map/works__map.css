@@ -1,0 +1,6 @@
+.works__map {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 15px;
+}

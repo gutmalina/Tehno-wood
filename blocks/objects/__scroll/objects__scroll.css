@@ -1,0 +1,11 @@
+.objects__scroll{
+  display: flex;
+}
+.objects__scroll span{
+  width: 27.6px;
+  border-bottom: 2px solid #1D1D1D;
+  margin-right: 4px;
+}
+.objects__scroll span:active{
+  border-bottom: 2px solid rgba(29, 29, 29, 0.5);
+}

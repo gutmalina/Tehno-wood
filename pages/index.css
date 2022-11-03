@@ -80,6 +80,25 @@
 @import url(../blocks/scheme/__line/scheme__line.css);
 @import url(../blocks/scheme/__subtitle/scheme__subtitle.css);
 
+@import url(../blocks/objects/objects.css);
+@import url(../blocks/objects/__title/objects__title.css);
+@import url(../blocks/objects/__border/objects__border.css);
+@import url(../blocks/objects/__group/objects__group.css);
+@import url(../blocks/objects/__card/objects__card.css);
+@import url(../blocks/objects/__card/_style/objects__card_style_big.css);
+@import url(../blocks/objects/__caption/objects__caption.css);
+@import url(../blocks/objects/__subtitle/__theme/objects__subtitle_theme_ligth.css);
+@import url(../blocks/objects/__subtitle/__theme/objects__subtitle_theme_gold.css);
+@import url(../blocks/objects/__scroll/objects__scroll.css);
+
+@import url(../blocks/works/works.css);
+@import url(../blocks/works/__logo/works__logo.css);
+@import url(../blocks/works/__title/works__title.css);
+@import url(../blocks/works/__title/_map/works__title_map.css);
+@import url(../blocks/works/__group/works__group.css);
+@import url(../blocks/works/__map/works__map.css);
+@import url(../blocks/works/__img-map/works__img-map.css);
+
 @import url(../blocks/popup/popup.css);
 @import url(../blocks/popup/_opened/popup_opened.css);
 @import url(../blocks/popup/__theme/_dark/popup__theme_dark.css);
@@ -104,64 +123,3 @@
 @import url(../blocks/popup/__form/popup__form.css);
 @import url(../blocks/popup/__form/_request/popup__form_request.css);
 @import url(../blocks/popup/__submit/popup__submit.css);
-
-.objects {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-.objects__title {
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 130%;
-  color: #1D1D1D;
-}
-.objects__border {
-  width: 334px;
-  height: 166px;
-  border: 0.5px solid #1D1D1D;
-  border-radius: 2px;
-}
-.objects__group {
-}
-.objects__card {
-  position: relative;
-}
-.objects__img {
-}
-.objects__caption {
-  background: rgba(29, 29, 29, 0.7);
-  border-radius: 2px;
-  height: 50px;
-  position: absolute;
-  bottom: 3px;
-  width: calc(100% - 8px);
-  padding-left: 8px;
-  display: flex;
-  flex-direction: column;
-}
-.objects__subtitle{
-}
-.objects__subtitle_theme_ligth{
-  font-weight: 550;
-  font-size: 14px;
-  line-height: 130%;
-  color: #FFFFFF;
-}
-.objects__subtitle_theme_gold{
-  font-weight: 400;
-  font-size: 12px;
-  line-height: 130%;
-  color: #D7B56D;
-}
-.objects__scroll{
-  display: flex;
-}
-.objects__scroll span{
-  width: 27.6px;
-  border-bottom: 2px solid #1D1D1D;
-  margin-right: 4px;
-}
-.objects__scroll span:active{
-  border-bottom: 2px solid rgba(29, 29, 29, 0.5);
-}

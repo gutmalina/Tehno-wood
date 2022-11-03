@@ -1,0 +1,10 @@
+.works__group {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 7px;
+}
+.works__group li{
+  margin-bottom: 15px;
+}

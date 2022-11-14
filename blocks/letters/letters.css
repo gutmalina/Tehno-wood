@@ -1,0 +1,6 @@
+.letters {
+  margin-top: 29px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

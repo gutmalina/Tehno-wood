@@ -1,0 +1,10 @@
+.contacts__submit{
+  width: 96px;
+  height: 46px;
+  background: #D7B56D;
+  border-radius: 2px;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 100%;
+  color: #1D1D1D;
+}

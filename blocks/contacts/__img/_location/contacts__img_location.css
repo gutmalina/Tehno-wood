@@ -1,0 +1,5 @@
+.contacts__img_location {
+  width: 14px;
+  height: 18px;
+  background: url(../../../../images/contacts_location.svg) no-repeat center/cover;
+}

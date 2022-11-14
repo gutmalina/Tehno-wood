@@ -1,0 +1,5 @@
+.contacts__img_email {
+  width: 15px;
+  height: 12px;
+  background: url(../../../../images/contacts_email.svg) no-repeat center/cover;
+}

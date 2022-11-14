@@ -1,0 +1,6 @@
+.letters__group {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 19px;
+  width: 100%;
+}

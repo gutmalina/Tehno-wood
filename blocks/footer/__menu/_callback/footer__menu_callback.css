@@ -1,0 +1,10 @@
+.footer__menu_callback{
+  background: #1D1D1D;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 130%;
+  text-decoration-line: underline;
+  text-transform: uppercase;
+  color: #D7B56D;
+  margin-left: 28px;
+}

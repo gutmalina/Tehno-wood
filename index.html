@@ -10,8 +10,24 @@
 <body>
   <page class="page">
     <header class="header">
-      <img src="./images/header_logo.svg" alt="Логотип компании Tehno-wood">
-      <button type="button" class="header__menu"></button>
+      <img class="logo" src="./images/header_logo.svg" alt="Логотип компании Tehno-wood">
+      <button type="button" class="header__btn_menu"></button>
+      <section class="menu">
+        <ul class="menu__list">
+          <li><a href="#">Работы</a></li>
+          <li><a href="#">Объекты</a></li>
+          <li><a href="#">Материалы</a></li>
+          <li><a href="#">О компании</a></li>
+          <li><a href="#">Контакты</a></li>
+        </ul>
+      </section>
+      <section class="menu__callback menu__callback_header">
+        <div class="menu__phone">
+          <img src="./images/phone_call.svg" alt="Заказать обратный звонок">
+          <p class="menu__phone_subtitle">8 (800) 222-65-05</p>
+        </div>
+        <button type="button" class="menu__btn__callback">обратный звонок</button>u
+      </section>
     </header>
     <main>
       <section class="lead">
@@ -330,9 +346,9 @@
       </section>
     </main>
     <footer class="footer">
-      <section class="footer__menu">
-        <img class="footer__logo" src="./images/footer__logo.svg" alt="Логотип компании Tehno-wood">
-        <ul class="footer__list">
+      <img class="logo logo_footer" src="./images/header_logo.svg" alt="Логотип компании Tehno-wood">
+      <section class="menu menu_footer">
+        <ul class="menu__list menu__list_footer">
           <li><a href="#">Работы</a></li>
           <li><a href="#">Объекты</a></li>
           <li><a href="#">Материалы</a></li>
@@ -341,12 +357,12 @@
         </ul>
       </section>
       <div class="footer__border"></div>
-      <section class="footer__callback">
-        <div class="footer__phone">
+      <section class="menu__callback menu__callback_footer">
+        <div class="menu__phone">
           <img src="./images/phone_call.svg" alt="Заказать обратный звонок">
-          <p class="footer__phone_subtitle">8 (800) 222-65-05</p>
+          <p class="menu__phone_subtitle">8 (800) 222-65-05</p>
         </div>
-        <button type="button" class="footer__menu_callback">обратный звонок</button>u
+        <button type="button" class="menu__btn__callback">обратный звонок</button>u
       </section>
     </footer>
     <div class="popup popup__menu">

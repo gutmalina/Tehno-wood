@@ -1,0 +1,8 @@
+.menu__callback_footer{
+  margin-left: 21px;
+}
+@media screen and (min-width: 800px) {
+  .menu__callback_footer{
+    margin-left: 0;
+  }
+}

@@ -1,0 +1,8 @@
+.menu__callback_header{
+  display: none;
+}
+@media screen and (min-width: 800px) {
+  .menu__callback_header{
+    display: inline;
+  }
+}

@@ -3,7 +3,7 @@ const popupMenu = document.querySelector('.popup__menu');
 const popupCallback = document.querySelector('.popup__callback');
 const popupRequest = document.querySelector('.popup__request');
 //кнопки
-const btnMenuOpen = document.querySelector('.header__menu');
+const btnMenuOpen = document.querySelector('.header__btn_menu');
 const btnMenuClose = document.querySelector('.popup__menu_close');
 const btnCallback = document.querySelector('.popup__menu_callback');
 const btnRequest = document.querySelector('.lead__request');

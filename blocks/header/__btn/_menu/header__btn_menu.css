@@ -1,0 +1,11 @@
+.header__btn_menu{
+  display: inline;
+  background: url(../../../../images/header_menu.svg) no-repeat;
+  width: 24px;
+  margin: 1px 21px 0 0;
+}
+@media screen and (min-width: 800px) {
+  .header__btn_menu{
+    display: none;
+  }
+}

@@ -1,0 +1,10 @@
+.menu__list_footer{
+  margin-top: 13px;
+  margin-left: 21px;
+}
+@media screen and (min-width: 800px) {
+  .menu__list_footer{
+    margin-top: 0;
+    margin-left: 0;
+  }
+}

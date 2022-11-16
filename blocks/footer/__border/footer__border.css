@@ -4,3 +4,8 @@
   align-self: center;
   margin: 16px auto 21px;
 }
+@media screen and (min-width: 800px) {
+  .footer__border{
+    display: none;
+  }
+}

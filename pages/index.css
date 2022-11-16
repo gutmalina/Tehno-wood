@@ -3,8 +3,21 @@
 
 @import url(../blocks/page/page.css);
 
+@import url(../blocks/logo/logo.css);
+@import url(../blocks/logo/_footer/logo_footer.css);
+
+@import url(../blocks/menu/menu.css);
+@import url(../blocks/menu/_footer/menu_footer.css);
+@import url(../blocks/menu/__list/menu__list.cs);
+@import url(../blocks/menu/__list/_footer/menu__list_footer.css);
+@import url(../blocks/menu/__phone/menu__phone.css);
+@import url(../blocks/menu/__phone/_subtitle/menu__phone_subtitle.css);
+@import url(../blocks/menu/__btn/_callback/menu__btn__callback.css);
+@import url(../blocks/menu/__callback/_header/menu__callback_header.css);
+@import url(../blocks/menu/__callback/_footer/menu__callback_footer.css);
+
 @import url(../blocks/header/header.css);
-@import url(../blocks/header/__menu/header__menu.css);
+@import url(../blocks/header/__btn/_menu/header__btn_menu.css);
 
 @import url(../blocks/lead/lead.css);
 @import url(../blocks/lead/__container/lead__container.css);
@@ -118,12 +131,7 @@
 @import url(../blocks/contacts/__submit/contacts__submit.css);
 
 @import url(../blocks/footer/footer.css);
-@import url(../blocks/footer/__list/footer__list.css);
 @import url(../blocks/footer/__border/footer__border.css);
-@import url(../blocks/footer/__callback/footer__callback.css);
-@import url(../blocks/footer/__phone/footer__phone.css);
-@import url(../blocks/footer/__phone/_subtitle/footer__phone_subtitle.css);
-@import url(../blocks/footer/__menu/_callback/footer__menu_callback.css);
 
 @import url(../blocks/popup/popup.css);
 @import url(../blocks/popup/_opened/popup_opened.css);
@@ -149,3 +157,4 @@
 @import url(../blocks/popup/__form/popup__form.css);
 @import url(../blocks/popup/__form/_request/popup__form_request.css);
 @import url(../blocks/popup/__submit/popup__submit.css);
+

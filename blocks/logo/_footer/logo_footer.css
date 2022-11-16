@@ -1,0 +1,10 @@
+.logo_footer{
+  margin-left: 9px;
+  margin-bottom: 4px;
+}
+@media screen and (min-width: 800px) {
+  .logo_footer{
+    margin-left: 0;
+    margin-bottom: 0;
+  }
+}

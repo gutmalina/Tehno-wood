@@ -1,0 +1,11 @@
+.lead__reguest{
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  margin-bottom: clamp(50px, 8vw , 144px);
+}
+@media screen and (min-width: 800px) {
+  .lead__reguest{
+    margin-left: 7px;
+  }
+}

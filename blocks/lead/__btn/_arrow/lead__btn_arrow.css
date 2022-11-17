@@ -1,0 +1,13 @@
+.lead__btn_arrow{
+  display: none;
+  background: url(../../../../images/lead_arrow_side.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 55px;
+  height: 55px;
+}
+@media screen and (min-width: 768px) {
+  .lead__btn_arrow{
+    display: inline;
+  }
+}

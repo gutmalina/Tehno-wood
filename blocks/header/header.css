@@ -3,13 +3,16 @@
   justify-content: space-between;
   background: #1D1D1D;
   min-width: 100%;
-  padding: 10px 0 1px;
+  margin-top: clamp(10px, 3vw, 18px);
+
 }
 @media screen and (min-width: 800px) {
   .header{
-    justify-content: center;
     align-items: center;
-    padding: 18px 0 24px;
+    margin-bottom: clamp(1px, 0.65vw, 12px);
+    max-width: 1150px;
+    min-width: 800px;
+    width: 90%;
   }
 }
 

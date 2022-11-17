@@ -4,12 +4,13 @@
 @media screen and (min-width: 800px) {
   .menu{
     display: inline;
-    margin-right: 1.8%;
   }
 }
 @media screen and (min-width: 960px) {
   .menu{
-    margin-right: 4.8%;
+    margin-left: 29px;
+    margin-bottom: 10px;
   }
 }
+
 

@@ -1,19 +1,4 @@
 .logo{
   min-width: 149px;
-  width: 12.5%;
-}
-@media screen and (min-width: 800px) {
-  .logo{
-    margin-right: 2%;
-  }
-}
-@media screen and (min-width: 960px) {
-  .logo{
-    margin-right: 4%;
-  }
-}
-@media screen and (min-width: 1280px) {
-  .logo{
-    margin-right: 6.4%;
-  }
+  width: 21%;
 }

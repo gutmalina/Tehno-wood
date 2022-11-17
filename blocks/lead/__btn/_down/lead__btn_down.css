@@ -1,9 +1,9 @@
-.lead__down {
-  background: url(../../../images/lead_down.svg);
+.lead__btn_down {
+  background: url(../../../../images/lead_down.svg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   width: clamp(28px, 3vw, 44px);
   height: clamp(28px, 3vw, 44px);
-  margin-bottom: 5px;
+  margin-bottom: clamp(5px, 1.4vw, 27px);
 }

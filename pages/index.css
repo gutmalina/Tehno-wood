@@ -1,6 +1,7 @@
 @import url(../vendor/normalize.css);
 @import url(../vendor/fonts/fonts.css);
 
+@import url(../blocks/body/body.css);
 @import url(../blocks/page/page.css);
 
 @import url(../blocks/logo/logo.css);
@@ -13,6 +14,7 @@
 @import url(../blocks/menu/__phone/menu__phone.css);
 @import url(../blocks/menu/__phone/_subtitle/menu__phone_subtitle.css);
 @import url(../blocks/menu/__btn/_callback/menu__btn__callback.css);
+@import url(../blocks/menu/__callback/menu__callback.css);
 @import url(../blocks/menu/__callback/_header/menu__callback_header.css);
 @import url(../blocks/menu/__callback/_footer/menu__callback_footer.css);
 
@@ -20,12 +22,19 @@
 @import url(../blocks/header/__btn/_menu/header__btn_menu.css);
 
 @import url(../blocks/lead/lead.css);
+@import url(../blocks/lead/__img/lead__img.css);
+@import url(../blocks/lead/__page/lead__page.css);
 @import url(../blocks/lead/__container/lead__container.css);
 @import url(../blocks/lead/__title/lead__title.css);
+@import url(../blocks/lead/__reguest/lead__reguest.css);
+@import url(../blocks/lead/__btn/_arrow/lead__btn_arrow.css);
+@import url(../blocks/lead/__btn/_arrow/_left/lead__btn_arrow_left.css);
+@import url(../blocks/lead/__btn/_arrow/_rigth/lead__btn_arrow_rigth.css);
 @import url(../blocks/lead/__btn/_reguest/lead__btn_reguest.css);
+@import url(../blocks/lead/__btn/_down/lead__btn_down.css);
 @import url(../blocks/lead/__border/lead__border.css);
+@import url(../blocks/lead/__navigation/lead__navigation.css);
 @import url(../blocks/lead/__scroll/lead__scroll.css);
-@import url(../blocks/lead/__down/lead__down.css);
 
 @import url(../blocks/advantages/advantages.css);
 @import url(../blocks/advantages/__title/advantages__title.css);
@@ -158,31 +167,5 @@
 @import url(../blocks/popup/__form/_request/popup__form_request.css);
 @import url(../blocks/popup/__submit/popup__submit.css);
 
-.lead__img{
-  min-width: 360px;
-  max-width: 100%;
-  min-height: 404px;
-  object-fit: cover;
-}
-.lead__page{
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-}
-.lead__context{
 
-}
-.lead__reguest{
-  display: flex;
-  flex-direction: column;
-  position: relative;
-  margin-bottom: clamp(50px, 2vw , 144px);
-}
-.lead__navigation{
-  position: absolute;
-  bottom: 0;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
+

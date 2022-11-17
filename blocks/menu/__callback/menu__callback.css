@@ -1,0 +1,8 @@
+.menu__callback{
+  margin-right: 19px;
+}
+@media screen and (min-width: 960px) {
+  .menu__callback{
+    margin-bottom: 5px;
+  }
+}

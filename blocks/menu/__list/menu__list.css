@@ -24,10 +24,21 @@
     grid-template-rows: none;
     grid-template-columns: repeat(5, auto);
     gap: 0 7px;
+
   }
 }
 @media screen and (min-width: 960px) {
   .menu__list{
+    gap: 0 15px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .menu__list{
     gap: 0 20px;
+  }
+}
+@media screen and (min-width: 1920px) {
+  .menu__list{
+    gap: 0 29px;
   }
 }

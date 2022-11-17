@@ -1,0 +1,5 @@
+.lead__btn_arrow_left{
+  transform: rotate(180deg);
+  margin-top: 50px;
+  margin-right: 10px;
+}

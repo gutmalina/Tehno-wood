@@ -3,7 +3,7 @@
   font-weight: 700;
   font-size: clamp(28px, 4vw, 64px);
   line-height: clamp(120%, 45px, 128.5%);
-  margin-top: clamp(100px, 30%, 161px);
+  margin-top: clamp(100px, 32%, 176px);
   margin-bottom: clamp(43px, 12%, 61px);
   max-width: min-content;
 }

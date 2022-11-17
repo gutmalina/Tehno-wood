@@ -1,11 +1,12 @@
 .lead__scroll {
-  display: flex;
-  margin: 0 0 22px 95px;
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  gap: 0 3px;
+  margin-bottom: 22px;
 }
 .lead__scroll span{
-  width: 27.6px;
+  width: clamp(27.6px, 3vw, 46px);
   border-bottom: 2px solid #FFFFFF;
-  margin-right: 3px;
 }
 .lead__scroll span:active{
   border-bottom: 2px solid rgba(255, 255, 255, 0.5);

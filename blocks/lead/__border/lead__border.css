@@ -1,0 +1,14 @@
+.lead__border {
+  min-width: 187px;
+  max-width: 250px;
+  width: 77.2%;
+  min-height: 37px;
+  max-height: 50px;
+  height: 4vw;
+  border: 1px solid #D7B56D;
+  border-radius: 2px;
+  position: absolute;
+  top: 4px;
+  left: 4px;
+}
+

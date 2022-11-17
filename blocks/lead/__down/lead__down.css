@@ -1,6 +1,9 @@
 .lead__down {
-  background: url(../../../images/lead_down.svg) no-repeat;
-  width: 28px;
-  height: 28px;
+  background: url(../../../images/lead_down.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: clamp(28px, 3vw, 44px);
+  height: clamp(28px, 3vw, 44px);
   margin-bottom: 5px;
 }

@@ -1,0 +1,17 @@
+.lead__btn_reguest {
+  min-width: 187px;
+  max-width: 250px;
+  width: 77.2%;
+  min-height: 37px;
+  max-height: 50px;
+  height: 4vw;
+  background: #FFFFFF;
+  border-radius: 2px;
+  font-weight: 400;
+  font-size: clamp(12px, 2vw, 14px);
+  line-height: 130%;
+  text-transform: uppercase;
+  color: #1D1D1D;
+  z-index: 1;
+}
+

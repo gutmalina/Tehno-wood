@@ -4,3 +4,9 @@
   width: 100%;
   height: 4px;
 }
+@media screen and (min-width: 800px) {
+  .advantages__card_border{
+    height: 6px;
+    margin-bottom: 2px;
+  }
+}

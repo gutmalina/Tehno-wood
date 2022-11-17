@@ -37,6 +37,7 @@
 @import url(../blocks/lead/__scroll/lead__scroll.css);
 
 @import url(../blocks/advantages/advantages.css);
+@import url(../blocks/advantages/__content/advantages__content.css);
 @import url(../blocks/advantages/__title/advantages__title.css);
 @import url(../blocks/advantages/__group/advantages__group.css);
 @import url(../blocks/advantages/__card/_border/advantages__card_border.css);

@@ -1,5 +1,7 @@
 .advantages {
   background: #FFFFFF;
-  padding-top: 27px;
-  margin-bottom: 22px;
+  width: 100%;
+  padding-top: clamp(27px, 3vw, 59px);
+  padding-bottom: clamp(24px, 5.5vw, 89px);
 }
+

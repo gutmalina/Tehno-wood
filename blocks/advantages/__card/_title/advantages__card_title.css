@@ -1,9 +1,21 @@
 .advantages__card_title {
   font-weight: 700;
-  font-size: 48px;
+  font-size: clamp(48px, 4vw, 64px);
   line-height: 115%;
 }
 .advantages__card_title span{
-  font-size: 21px;
+  font-weight: 700;
+  font-size: clamp(21px, 2.5vw, 40px);
   line-height: 115%;
 }
+@media screen and (min-width: 800px) {
+  .advantages__card_title {
+    line-height: 130%;
+    margin-bottom: 10px;
+  }
+  .advantages__card_title sup{
+    font-size: 24px;
+  }
+}
+
+

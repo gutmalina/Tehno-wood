@@ -1,6 +1,14 @@
 .principles__item_subtitle{
+  font-weight: 400;
+  font-size: clamp(14px, 0.85vw, 16px);
   line-height: 120%;
   color: #FFFFFF;
   margin-bottom: 16px;
-  max-width: calc(100% - 45px);
+  white-space: pre-line;
+}
+@media screen and (min-width: 1280px) {
+  .principles__item_subtitle{
+    line-height: 130%;
+  }
+
 }

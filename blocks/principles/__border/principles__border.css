@@ -1,6 +1,6 @@
 .principles__border {
-  width: 251.28px;
-  height: 262px;
+  width: clamp(251.28px, 48vw, 422px);
+  height: clamp(262px, 45vw, 440px);
   border: 0.5px solid #D7B56D;
   border-radius: 2px;
 }

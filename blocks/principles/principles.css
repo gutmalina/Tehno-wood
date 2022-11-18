@@ -1,4 +1,10 @@
 .principles {
   background: #1D1D1D;
-  padding: 32px 10px;
+  display: flex;
+  flex-direction: column;
+}
+@media screen and (min-width: 800px) {
+  .principles {
+    align-items: center;
+  }
 }

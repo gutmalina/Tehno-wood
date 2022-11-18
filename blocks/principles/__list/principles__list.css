@@ -1,5 +1,8 @@
 .principles__list {
-  font-weight: 400;
-  font-size: 14px;
-  margin: 0 18px 21px;
+  margin-left: 18px;
+}
+@media screen and (min-width: 800px) {
+  .principles__list {
+    margin-left: 0;
+  }
 }

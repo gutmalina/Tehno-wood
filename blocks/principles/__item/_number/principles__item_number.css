@@ -1,5 +1,12 @@
 .principles__item_number {
+  font-weight: 400;
+  font-size: clamp(14px, 0.85vw, 16px);
   line-height: 130%;
   color: rgba(255, 255, 255, 0.5);
   margin-bottom: 4px;
+}
+@media screen and (min-width: 800px) {
+  .principles__item_number {
+    margin-bottom: 10px;
+  }
 }

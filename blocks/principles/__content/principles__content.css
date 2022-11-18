@@ -1,0 +1,10 @@
+.principles__content{
+  margin-top: clamp(32px, 3vw, 50px);
+  margin-bottom: clamp(16px, 4vw, 65px);
+  margin-left: 10px;
+}
+@media screen and (min-width: 800px) {
+  .principles__content{
+    margin-left: 0;
+  }
+}

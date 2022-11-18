@@ -1,0 +1,10 @@
+.principles__container{
+  display: flex;
+  flex-direction: column;
+}
+@media screen and (min-width: 800px) {
+  .principles__container{
+    flex-direction: row;
+    width: clamp(800px, 66vw, 1176px);
+  }
+}

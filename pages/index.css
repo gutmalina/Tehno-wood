@@ -46,12 +46,16 @@
 @import url(../blocks/advantages/__card/_subtitle/advantages__card_subtitle.css);
 
 @import url(../blocks/principles/principles.css);
+@import url(../blocks/principles/__content/principles__content.css);
 @import url(../blocks/principles/__title/principles__title.css);
+@import url(../blocks/principles/__container/principles__container.css);
+@import url(../blocks/principles/__images/principles__images.css);
 @import url(../blocks/principles/__border/principles__border.css);
 @import url(../blocks/principles/__group/principles__group.css);
 @import url(../blocks/principles/__card/_type/principles__card_type_room.css);
 @import url(../blocks/principles/__card/_type/principles__card_type_table.css);
 @import url(../blocks/principles/__card/_type/principles__card_type_bedroom.css);
+@import url(../blocks/principles/__img/principles__img.css);
 @import url(../blocks/principles/__list/principles__list.css);
 @import url(../blocks/principles/__item/principles__item.css);
 @import url(../blocks/principles/__item/_number/principles__item_number.css);

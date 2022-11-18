@@ -1,0 +1,4 @@
+.principles__img{
+  width: clamp(152px, 26vw, 255px);
+  object-fit: cover;
+}

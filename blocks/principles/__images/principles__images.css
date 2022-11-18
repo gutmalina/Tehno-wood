@@ -1,0 +1,12 @@
+.principles__images{
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  margin-bottom: 25px;
+}
+@media screen and (min-width: 800px) {
+  .principles__images{
+    margin-bottom: 0;
+    margin-right: clamp(20px, 15vw, 275px);
+  }
+}

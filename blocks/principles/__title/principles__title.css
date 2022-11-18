@@ -1,7 +1,12 @@
 .principles__title {
   font-weight: 400;
-  font-size: 20px;
+  font-size: clamp(20px, 2vw, 36px);
   line-height: 130%;
   color: #FFFFFF;
-  margin-bottom: 14px;
+  margin-bottom: clamp(12px, 4vw, 76px);
+}
+@media screen and (min-width: 800px) {
+  .principles__title {
+    margin-left: 32px;
+  }
 }

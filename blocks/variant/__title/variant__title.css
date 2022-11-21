@@ -1,7 +1,14 @@
 .variant__title {
   font-weight: 400;
-  font-size: 20px;
+  font-size: clamp(20px, 2vw, 36px);
   line-height: 120%;
   color: #1D1D1D;
   margin-bottom: 16px;
+  max-width: clamp(290px, 21vw, 380px);
+}
+@media screen and (min-width: 800px) {
+  .variant__title {
+    line-height: 130%;
+    margin-bottom: 0;
+  }
 }

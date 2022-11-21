@@ -1,3 +1,8 @@
 .variant__line_style_black{
   border-bottom: 2px solid #1D1D1D;
 }
+@media screen and (min-width: 800px) {
+  .variant__line_style_black{
+    border-bottom: 4px solid #1D1D1D;
+  }
+}

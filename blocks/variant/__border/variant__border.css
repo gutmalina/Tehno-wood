@@ -1,7 +1,14 @@
 .variant__border {
-  width: 271px;
-  height: 640px;
+  width: clamp(271px, 75vw, 1526px);
+  height: clamp(640px, 44vw, 837px);
   border: 0.5px solid #1D1D1D;
   border-radius: 2px;
-  margin: 18px 0 0 32px;
+  margin-right: 15px;
+}
+@media screen and (min-width: 800px) {
+  .variant__border {
+    width: clamp(271px, 80vw, 1526px);
+    border: 2px solid #1D1D1D;
+    margin-right: 0;
+  }
 }

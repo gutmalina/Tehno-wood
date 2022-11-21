@@ -1,3 +1,9 @@
 .variant__line {
-  margin: 0 40px 9px 0;
+  margin-bottom: 9px;
+  width: clamp(300px, 20vw, 348px);
+}
+@media screen and (min-width: 800px) {
+  .variant__line {
+    margin-bottom: 22px;
+  }
 }

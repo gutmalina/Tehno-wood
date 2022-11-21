@@ -1,7 +1,21 @@
 .variant__subtitle {
   font-weight: 400;
-  font-size: 14px;
+  font-size: clamp(14px, 1vw, 16px);
   line-height: 120%;
   color: #1D1D1D;
   margin-bottom: 17px;
+  max-width: max(100%, 345px);
+}
+.variant__subtitle:last-of-type{
+  margin-bottom: 0;
+}
+@media screen and (min-width: 800px) {
+  .variant__subtitle {
+    line-height: 130%;
+    max-width: max(32vw, 625px);
+    margin-bottom: 23px;
+  }
+  .variant__subtitle:last-of-type{
+    margin-bottom: 0;
+  }
 }

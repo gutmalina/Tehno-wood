@@ -1,5 +1,42 @@
 .variant__group {
   margin-top: -621px;
-  display: flex;
-  flex-wrap: wrap;
+  position: absolute;
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: 1fr 0.5fr 1fr;
+  grid-template-rows: repeat(6, auto);
+  grid-template-areas:
+                    "state   state    storage"
+                    "state   state    storage"
+                    "child   office   office"
+                    "trading medical medical"
+                    "kitchen kitchen  room"
+                    "soft    soft     room";
+}
+.variant__card_type_state{
+  grid-area: state;
+}
+.variant__card_type_storage{
+  grid-area: storage;
+}
+.variant__card_type_child {
+  grid-area: child;
+}
+.variant__card_type_office {
+  grid-area: office;
+}
+.variant__card_type_trading {
+  grid-area: trading;
+}
+.variant__card_type_medical {
+  grid-area: medical;
+}
+.variant__card_type_kitchen {
+  grid-area: kitchen;
+}
+.variant__card_type_room {
+  grid-area: room;
+}
+.variant__card_type_soft {
+  grid-area: soft;
 }

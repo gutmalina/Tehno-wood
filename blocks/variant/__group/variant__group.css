@@ -1,10 +1,12 @@
 .variant__group {
-  margin-top: -621px;
   position: absolute;
-  margin-top: 20px;
+  bottom: 32px;
+  width: clamp(340px, 73%, 1117px);
+  height: clamp(595px, 48vw, 908px);
   display: grid;
   grid-template-columns: 1fr 0.5fr 1fr;
-  grid-template-rows: repeat(6, auto);
+  grid-template-rows: repeat(6, 16%);
+  gap: 5px;
   grid-template-areas:
                     "state   state    storage"
                     "state   state    storage"
@@ -12,6 +14,20 @@
                     "trading medical medical"
                     "kitchen kitchen  room"
                     "soft    soft     room";
+}
+
+@media screen and (min-width: 800px) {
+  .variant__group {
+    bottom: 64px;
+    grid-template-columns: 0.7fr 0.7fr 1fr 1fr;
+    grid-template-rows: repeat(4, 24%);
+    gap: 12px;
+    grid-template-areas:
+                      "state   state   storage kitchen"
+                      "state   state   storage soft"
+                      "office  room    child   child"
+                      "medical medical trading trading";
+  }
 }
 .variant__card_type_state{
   grid-area: state;

@@ -10,5 +10,6 @@
   .variant__title {
     line-height: 130%;
     margin-bottom: 0;
+    margin-right: 30px;
   }
 }

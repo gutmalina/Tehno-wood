@@ -3,7 +3,7 @@
   height: clamp(640px, 44vw, 837px);
   border: 0.5px solid #1D1D1D;
   border-radius: 2px;
-  margin-right: 15px;
+  margin-right: 7px;
 }
 @media screen and (min-width: 800px) {
   .variant__border {

@@ -1,10 +1,11 @@
 .variant__card {
-  position: relative;
-  margin-bottom: 2px;
+  /* position: relative; */
+  /* margin-bottom: 2px; */
+
 }
 .variant__card:nth-child(1n){
-  margin-right: 8px;
+  /* margin-right: 8px; */
 }
 .variant__card:last-of-type{
-  margin-top: -99px;
+  /* margin-top: -99px; */
 }

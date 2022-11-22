@@ -1,16 +1,24 @@
 .variant__caption {
   font-weight: 550;
-  font-size: 14px;
+  /* font-size: clamp(14px, 1.2vw, 20px);
   line-height: 120%;
-  color: #FFFFFF;
+  color: #FFFFFF; */
   background: rgba(29, 29, 29, 0.7);
   border-radius: 2px;
-  height: 37px;
+  height: clamp(37px, 4vw, 72px);
   position: absolute;
-  bottom: 3px;
+  bottom: 0;
   width: calc(100% - 8px);
   padding-left: 8px;
   display: flex;
   align-items: center;
-  display: none;
+}
+@media screen and (min-width: 800px) {
+  .variant__caption {
+    display: flex;
+    justify-content: space-between;
+    width: calc(100% - 15px);
+    padding-left: 15px;
+    flex-wrap: wrap;
+  }
 }

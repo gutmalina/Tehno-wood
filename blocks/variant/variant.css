@@ -59,3 +59,29 @@
   object-fit: cover;
   border-radius: 2px;
 }
+
+.variant__link{
+  display: none;
+  font-weight: 400;
+  font-size: clamp(10px, 1vw, 14px);
+  line-height: 130%;
+  text-decoration-line: underline;
+  color: #D7B56D;
+  margin-right: 12px;
+}
+.variant__link img{
+  margin-left: 6px;
+}
+@media screen and (min-width: 800px) {
+  .variant__link{
+    display: inline;
+  }
+  .variant__link img{
+    display: none;
+  }
+}
+@media screen and (min-width: 960px) {
+  .variant__link img{
+    display: inline;
+  }
+}

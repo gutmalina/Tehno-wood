@@ -29,30 +29,3 @@
                       "medical medical trading trading";
   }
 }
-.variant__card_type_state{
-  grid-area: state;
-}
-.variant__card_type_storage{
-  grid-area: storage;
-}
-.variant__card_type_child {
-  grid-area: child;
-}
-.variant__card_type_office {
-  grid-area: office;
-}
-.variant__card_type_trading {
-  grid-area: trading;
-}
-.variant__card_type_medical {
-  grid-area: medical;
-}
-.variant__card_type_kitchen {
-  grid-area: kitchen;
-}
-.variant__card_type_room {
-  grid-area: room;
-}
-.variant__card_type_soft {
-  grid-area: soft;
-}

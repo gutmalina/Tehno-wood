@@ -1,0 +1,9 @@
+.production__visual{
+  width: clamp(340px, 93%, 920px);
+  height: clamp(165px, 34vw, 450px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  margin-bottom: 18px;
+}

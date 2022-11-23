@@ -1,3 +1,8 @@
 .variant__line_style_gold{
   border-bottom: 2px solid #D7B56D;
 }
+@media screen and (min-width: 800px) {
+  .variant__line_style_gold{
+    border-bottom: 4px solid #D7B56D;
+  }
+}

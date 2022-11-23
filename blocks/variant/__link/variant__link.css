@@ -1,0 +1,15 @@
+.variant__link{
+  display: none;
+  font-weight: 400;
+  font-size: clamp(10px, 1vw, 14px);
+  line-height: 130%;
+  text-decoration-line: underline;
+  color: #D7B56D;
+  margin-right: 12px;
+}
+@media screen and (min-width: 800px) {
+  .variant__link{
+    display: inherit;
+    align-items: center;
+  }
+}

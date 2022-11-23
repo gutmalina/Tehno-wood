@@ -1,0 +1,8 @@
+.variant__card_type_room {
+  grid-area: room;
+}
+@media screen and (min-width: 800px) {
+  .variant__card_type_room{
+    font-size: clamp(8px, 1vw, 18px);
+  }
+}

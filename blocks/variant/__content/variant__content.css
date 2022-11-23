@@ -1,0 +1,10 @@
+.variant__content{
+  margin: 0 10px;
+  display: flex;
+  flex-direction: column;
+}
+@media screen and (min-width: 800px) {
+  .variant__content{
+    margin: 0;
+  }
+}

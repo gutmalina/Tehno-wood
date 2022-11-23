@@ -1,8 +1,5 @@
 .variant__caption {
   font-weight: 550;
-  /* font-size: clamp(14px, 1.2vw, 20px);
-  line-height: 120%;
-  color: #FFFFFF; */
   background: rgba(29, 29, 29, 0.7);
   border-radius: 2px;
   height: clamp(37px, 4vw, 72px);

@@ -1,0 +1,8 @@
+.variant__card_type_office {
+  grid-area: office;
+}
+@media screen and (min-width: 800px) {
+  .variant__card_type_office{
+    font-size: clamp(10px, 1.2vw, 18px);
+  }
+}

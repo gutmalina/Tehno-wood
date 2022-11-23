@@ -1,0 +1,8 @@
+.variant__img{
+  max-width: 100%;
+  max-height: 100%;
+  width: -webkit-fill-available;
+  height: -webkit-fill-available;
+  object-fit: cover;
+  border-radius: 2px;
+}

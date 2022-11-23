@@ -1,0 +1,14 @@
+.variant__container{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: clamp(19px, 5vw, 150px);
+
+}
+@media screen and (min-width: 800px) {
+  .variant__container{
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 auto clamp(19px, 10vw, 174px);
+    width: clamp(736px, 73%, 1117px);
+  }
+}

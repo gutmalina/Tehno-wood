@@ -1,0 +1,14 @@
+.variant__arrow{
+  display: none;
+  background: url(../../../images/variant_link.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 29px;
+  height: 8px;
+  margin-left: 6px;
+}
+@media screen and (min-width: 960px) {
+  .variant__arrow{
+    display: block;
+  }
+}

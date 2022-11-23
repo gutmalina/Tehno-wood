@@ -1,0 +1,8 @@
+.variant__card_type_trading {
+  grid-area: trading;
+}
+@media screen and (min-width: 800px) {
+  .variant__card_type_trading{
+    font-size: clamp(14px, 1.5vw, 24px);
+  }
+}

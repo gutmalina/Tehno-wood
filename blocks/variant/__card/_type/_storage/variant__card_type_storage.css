@@ -1,0 +1,8 @@
+.variant__card_type_storage{
+  grid-area: storage;
+}
+@media screen and (min-width: 800px) {
+  .variant__card_type_storage{
+    font-size: clamp(10px, 1.1vw, 20px);
+  }
+}

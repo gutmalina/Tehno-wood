@@ -4,7 +4,7 @@
   line-height: 120%;
   color: #1D1D1D;
   margin-bottom: 16px;
-  max-width: clamp(290px, 21vw, 380px);
+  width: clamp(290px, 21vw, 380px);
 }
 @media screen and (min-width: 800px) {
   .variant__title {

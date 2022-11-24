@@ -1,7 +1,7 @@
 .variant__group {
   position: absolute;
   bottom: 32px;
-  width: clamp(340px, 73%, 1117px);
+  width: clamp(340px, 73%, 1112px);
   height: clamp(595px, 48vw, 908px);
   display: grid;
   grid-template-columns: 1fr 0.5fr 1fr;

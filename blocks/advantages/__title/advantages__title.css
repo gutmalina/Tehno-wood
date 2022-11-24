@@ -2,7 +2,7 @@
   font-weight: 400;
   font-size: clamp(20px, 2vw, 36px);
   line-height: 130%;
-  margin-bottom: 22px;
+  margin-bottom: 24px;
   margin-left: 10px;
 }
 @media screen and (min-width: 800px) {

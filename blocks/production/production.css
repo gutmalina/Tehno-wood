@@ -1,6 +1,6 @@
 .production{
   background: #E5E5E5;
-  padding-top: clamp(32px, 4vw, 75px);
+  padding-top: clamp(32px, 4vw, 61px);
   display: flex;
   flex-direction: column;
 }
@@ -9,18 +9,3 @@
     align-items: center;
   }
 }
-
-.production__content{
-  margin: 0 10px;
-  display: flex;
-  flex-direction: column;
-}
-@media screen and (min-width: 800px) {
-  .production__content{
-    margin: 0;
-  }
-}
-.production__container{
-  margin-bottom: 0;
-}
-

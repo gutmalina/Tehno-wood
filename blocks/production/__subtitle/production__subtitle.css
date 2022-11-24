@@ -1,0 +1,17 @@
+.production__subtitle{
+  display: none;
+  white-space: pre-line;
+  z-index: 1;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 111%;
+  text-align: center;
+  color: #FFFFFF;
+  margin-top: 18px;
+}
+@media screen and (min-width: 800px) {
+  .production__subtitle{
+    display: inline;
+    margin-bottom: 3vh;
+  }
+}

@@ -1,3 +1,3 @@
 .production__line{
-  margin-bottom: 12px;
+  margin-bottom: clamp(12px, 2vw, 32px);
 }

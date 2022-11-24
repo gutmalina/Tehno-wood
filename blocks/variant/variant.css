@@ -1,7 +1,7 @@
 .variant {
   background: #F4F3E4;
-  padding-top: clamp(32px, 4vw, 75px);
-  padding-bottom: 59px;
+  padding-top: clamp(32px, 4vw, 76px);
+  padding-bottom: clamp(57px, 5vw, 87px);
   display: flex;
   flex-direction: column;
 }

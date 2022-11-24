@@ -1,9 +1,16 @@
 .production__visual{
   width: clamp(340px, 93%, 920px);
-  height: clamp(165px, 34vw, 450px);
+  height: clamp(165px, 34vw, 382px);
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   position: relative;
-  margin-bottom: 18px;
+  margin-bottom: 16px;
+}
+@media screen and (min-width: 800px) {
+  .production__visual{
+    margin-bottom: 0;
+    justify-content: flex-end;
+  }
 }

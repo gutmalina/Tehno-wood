@@ -1,7 +1,7 @@
 .advantages__card_title {
   font-weight: 700;
   font-size: clamp(48px, 4vw, 64px);
-  line-height: 115%;
+  line-height: 109%;
 }
 .advantages__card_title span{
   font-weight: 700;

@@ -9,6 +9,6 @@
     flex-direction: row;
     justify-content: space-between;
     margin: 0 auto clamp(19px, 10vw, 174px);
-    width: clamp(736px, 73%, 1117px);
+    width: clamp(736px, 73%, 1109px);
   }
 }

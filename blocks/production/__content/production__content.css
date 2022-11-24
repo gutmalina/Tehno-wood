@@ -1,0 +1,9 @@
+.production__content{
+  align-items: center;
+}
+@media screen and (min-width: 800px) {
+  .production__content{
+    width: clamp(271px, 80vw, 1526px);
+    height: fit-content;
+  }
+}

@@ -1,6 +1,16 @@
 .production__player{
-  background: url(../../../../images/production_player.svg) no-repeat;
-  width: 40.13px;
-  height: 40.13px;
-  position: absolute;
+  background: url(../../../../images/production_player.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: clamp(40.13px, 5vw, 77px);
+  height: clamp(40.13px, 5vw, 77px);
+  z-index: 1;
+  margin-top: 8.5vh;
 }
+@media screen and (min-width: 800px) {
+  .production__player{
+    margin-top: 0;
+  }
+}
+
